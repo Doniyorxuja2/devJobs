@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.bakcground {
+  width: 100vw;
+  background-image: url("./assets/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
